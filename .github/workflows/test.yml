@@ -12,5 +12,7 @@ jobs:
         nix_path: nixpkgs=channel:nixos-unstable
     - run: mkdir hello
     - run: pwd
+    - run: ls
     - run: nix-build
+    
 
